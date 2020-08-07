@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>      
+     <head>
+        <link rel="stylesheet" type="text/css" href="/Users/patrycjagolabek/Documents/Programowanie/product_page/style.css">
+       <title>New product page</title>
+     </head>
+     <header>
+     <!--Header with img and nav bar-->
+             <div class="logo">
+                 <img id="header-img" class="header-img"
+                 src="https://img2.pngio.com/line-art-drawing-bugs-bunny-rabbit-clip-art-rabbit-png-download-rabbit-drawing-png-509_602.png"
+                 alt="rabbit logo"></img>
+             </div>
+     <nav id="nav-bar">
+         <ul class="nav-ul">
+             <li>
+                 <a class="nav-link"
+                 href="#about">About us</a>
+             </li>
+             <li>
+                 <a class="nav-link"
+                 href="#products">Our products</a>
+             </li>
+             <li>
+                 <a class="nav-link"
+                 href="#pricing">Pricing</a>
+             </li>
+         </ul>
+     </nav>
+     </header>
+
+     <body>
+         <article>
+             <!--Info and email form-->
+             <section id="start">
+                 <h2>Get your bunny something special</h2>
+                 <form id="form"
+                 action="https://www.freecodecamp.com/email-submit">
+                 <input 
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="Enter yout email here"
+                    required/><br>
+                    <input class="submit-btn"
+                    id="submit"
+                    type="submit"
+                    value="Get started"/>
+                 </form>
+             </section>
+             <section id="about">
+                <p class="text">We are two rabbit lovers who want to create special toys for our beloved pets. We believe in the best quality and create all the product with enviromently friendly materials. See our products and happy customers:</p>
+             </section>
+             <section id="products">
+                 <iframe 
+                 id="video"
+                 width="560"
+                 height="315"
+                 src="https://www.youtube.com/embed/AQkeCVkMmeM" 
+                 frameborder="0"
+                 allow="accelerometer; autoplay; encrypted-media; gyroscope;picture-in-picture"
+                 allowfullscreen></iframe>
+             </section>
+             <!--Boxes row with different buying options-->
+             <section id="pricing">
+                 <div class="boxes-row">
+                     <div class="box">
+                         <div class="level">One time</div>
+                         <h2 class="box-h2">$20</h2>
+                         <ul>
+                             <li>one time purchase</li>
+                             <li>no subscription</li>
+                         </ul>
+                         <button class="box-btn">Choose</button>
+                     </div>
+                     <div class="box">
+                         <div class="level">Half year</div>
+                         <h2 class="box-h2">$110</h2>
+                         <ul>
+                             <li>6 mo subscription</li>
+                             <li>$18 a box</li>
+                         </ul>
+                         <button class="box-btn">Choose</button>
+                     </div>
+                     <div class="box">
+                         <div class="level">One year</div>
+                         <h2 class="box-h2">$160</h2>
+                         <ul>
+                             <li>12 mo subscription</li>
+                             <li><b>Only $13 a box!</b></li>
+                         </ul>
+                         <button class="box-btn">Choose</button>
+                     </div>
+                 </div>
+             </section>
+         <footer>
+             <ul class="footer-ul">
+                 <li>
+                     <a class="fot-link" 
+                     href="#">Terms</a>
+                 </li>
+                 <li>
+                     <a class="fot-link"
+                     href="#">Cancel subscription</a>
+                 </li>
+             </ul>
+         </footer>
+     </body>
+</html>
